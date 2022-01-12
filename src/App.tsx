@@ -26,22 +26,23 @@ const _Frame = styled.div`
 `;
 
 const _Header = styled.div`
+position: fixed;
 display: inline-block;
     width: 100%;
-    height: 100%;
+    height: 40px;
     background-color: #fd0707
 `;
 
 const _Body = styled.div`
 display: inline-block;
     width: 100%;
-    height: 100%;
+    height: 2000px;
     background-color: #fbff00
 `;
 
 const _Footer = styled.div`
 display: inline-block;
     width: 100%;
-    height: 100%;
+    height: 80px;
     background-color: #13ff46
 `;
